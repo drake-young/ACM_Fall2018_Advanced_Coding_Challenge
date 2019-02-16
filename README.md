@@ -2,6 +2,8 @@
 
 This program was submitted for the ACM Fall 2018 Coding Challenge on HackerRank for the advanced division. My team won first place for this division at the University of Colorado: Denver. See the References and Links section for the prompt and more information about the ACM.
 
+Included are two versions of the program. One is the bare version used for competitions submission (original_submission.py), and the other version is the same code with comments and formatting added to enhance readability and explain how the code is working (comments_added.py)
+
 ## Advanced - Tournament Bracket Maker
 
 You will create a tournament bracket for a two player game, for example Ping Pong, for a tournament size of N players. Your N is specified in the Input constraint according to your level. In general, the tournament bracket should be intuitive and applicable for a real tournament. Your solution will be for the general case restricted by the number of players entered into your tournament, so you will not use player's names. Instead, you will use P1, P2,... and W1 for Winner of game 1, W2 for Winner of game 2,... and L1 for Loser of game 1, L2 for Loser of game 2,... Games will be specifed as G1 for game 1, G2 for game 2,... In addition to a Winners bracket, you will also need to allow for Losers to get back into the Final game with a separate Losers bracket. You will need to print all rounds from the Winners bracket first. Then you will be able to determine the games and rounds in the Losers bracket accordingly. The overall winners in each bracket will face off in the final game.
